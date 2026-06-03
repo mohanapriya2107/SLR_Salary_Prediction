@@ -8,14 +8,6 @@
 
 ---
 
-### 👨‍💻 Developed by Mohana Priya Korukoppula
-
-AI & Machine Learning Enthusiast | Full Stack Developer | Data Science Learner
-
-</div>
-
----
-
 # 📌 Project Overview
 
 This project is a complete **Machine Learning Web Application** that predicts employee salaries based on their **Years of Experience** using **Simple Linear Regression (SLR)**.
