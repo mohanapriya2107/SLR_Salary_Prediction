@@ -1,6 +1,3 @@
-# 💼 Salary Prediction Web Application using Machine Learning
-
-
 # 📊 Salary Prediction using Simple Linear Regression
 
 ### Flask | Scikit-learn | Machine Learning | HTML/CSS | Render Deployment
