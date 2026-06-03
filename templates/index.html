@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Flask</title>
+    <style>
+        h1{
+            font-size: 75px;
+        }
+        body{
+            text-align: center;
+        }
+        .btn-success{
+            margin-top: 20px;
+            padding:10px;
+            font-size: 25px;
+            border-radius: 25px;
+            background-color: lightpink;
+        }
+        form{
+            padding: 10px;
+        }
+        .exp{
+            padding:15px;
+            border-radius: 25px;
+            width:300px;
+            font-size:20px;
+        }
+        .btn-success:hover{
+            background-color:pink;
+            cursor:pointer;
+        }
+        input::placeholder,
+            textarea::placeholder {
+                font-size: 20px; /* Adjust size as needed */
+
+            }
+        h3{
+            font-size: 35px;
+        }
+    </style>
+</head>
+<body bgcolor="#f0f8ff">
+<h1> Salary Prediction </h1>
+<form class="forms" action="/predict" method="POST">
+    <input class="exp" type="text" name="Experience" placeholder="Experience"><br>
+    <button class = 'btn btn-success'>submit</button>
+</form>
+<h3><strong>Predicted Salary = {{ prediction_text }}</strong></h3>
+</body>
+</html>
