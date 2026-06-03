@@ -1,6 +1,5 @@
 # 💼 Salary Prediction Web Application using Machine Learning
 
-<div align="center">
 
 # 📊 Salary Prediction using Simple Linear Regression
 
@@ -577,6 +576,3 @@ This project demonstrates the complete lifecycle of a Machine Learning applicati
 The Simple Linear Regression model achieved excellent prediction accuracy and was successfully integrated into a dynamic Flask web application capable of predicting salaries based on user input.
 
 ---
-
-
-</div>
